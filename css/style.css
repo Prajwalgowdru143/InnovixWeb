@@ -307,9 +307,10 @@
     left: 0;
     text-align: center;
     background: #FFFFFF;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+    box-shadow: -2px 80px 62px rgba(0, 0, 0, .06);
     transition: .5s;
     z-index: 2;
+    border: 2px solid #e9e5e5;
 }
 
 .service-item:hover .service-text {
@@ -592,4 +593,18 @@
 
 .copyright a:hover {
     color: var(--primary) !important;
+}
+
+ .logo .logoimg {
+    width: calc(13.325rem + 0.9vw);
+    border: 2px solid lightgray;
+}
+@media (max-width: 991.98px) {
+    .logo .logoimg {
+        width: calc(11.325rem + 0.9vw);
+        border: 2px solid lightgray;
+    }
+    .bg-white {
+        background-color: white;
+    }
 }
